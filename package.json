@@ -1,0 +1,28 @@
+{
+  "name": "rabittmq",
+  "version": "1.0.0",
+  "description": "rabbitmq cola de mensages con dockers",
+  "license": "ISC",
+  "author": "rale",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup-db": "node scripts/setupDb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "jwks-rsa": "^4.0.1",
+    "msnodesqlv8": "^5.1.9",
+    "mssql": "^12.5.2",
+    "socket.io": "^4.8.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "undici": "^8.3.0"
+  }
+}

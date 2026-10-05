@@ -1,0 +1,18 @@
+# Ignorar archivos compilados
+*.class
+*.o
+*.exe
+
+# Ignorar archivos temporales de editor
+*.swp
+*.tmp
+*.log
+
+# Ignorar carpetas
+node_modules/
+dist/
+
+# Ignorar variables de entorno
+.env
+.env
+node_modules/
